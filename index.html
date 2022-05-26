@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Drum Machine</title>
+    <script src="js/drum.js"></script>
+  </head>
+  <body>
+    <div class="container" id="drum-machine">
+      <h1 class="text-center">Drum Machine</h1>
+      <div class="card my-3">
+          <div class="card-body">
+            <div class="text-center" id="display">Nothing Yet to Display</div>
+          </div>
+        </div>
+    <button class="drum-pad btn btn-block btn-primary" id="drum-0" onclick="play('Q')">
+      Q
+      <audio src="./clip/q-on-compliments.m4a" class="clip" id="Q">
+    </button>
+    <button class="drum-pad btn btn-block btn-primary" id="drum-1" onclick="play('W')">
+      W
+      <audio src="./clip/w-on-money.m4a" class="clip" id="W">
+    </button>
+    <button class="drum-pad btn btn-block btn-primary" id="drum-2" onclick="play('E')">
+      E
+      <audio src="./clip/e-on-discipline.m4a" class="clip" id="E">
+    </button>
+    <button class="drum-pad btn btn-block btn-primary" id="drum-3" onclick="play('A')">
+      A
+      <audio src="./clip/a-on-age.m4a" class="clip" id="A">
+    </button>
+    <button class="drum-pad btn btn-block btn-primary" id="drum-4" onclick="play('S')">
+      S
+      <audio src="./clip/s-on-audience.m4a" class="clip" id="S">
+    </button>
+    <button class="drum-pad btn btn-block btn-primary" id="drum-5" onclick="play('D')">
+      D
+      <audio src="./clip/d-on-bombing.m4a" class="clip" id="D">
+    </button>
+    <button class="drum-pad btn btn-block btn-primary" id="drum-6" onclick="play('Z')">
+      Z
+      <audio src="./clip/z-on-music-philosophy.m4a" class="clip" id="Z">
+    </button>
+    <button class="drum-pad btn btn-block btn-primary" id="drum-7" onclick="play('X')">
+      X
+      <audio src="./clip/x-on-protesting.m4a" class="clip" id="X">
+    </button>
+    <button class="drum-pad btn btn-block btn-primary" id="drum-8" onclick="play('C')">
+      C
+      <audio src="./clip/c-on-rock-music.m4a" class="clip" id="C">
+    </button>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
